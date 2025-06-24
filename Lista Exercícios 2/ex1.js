@@ -19,5 +19,5 @@ function ehDataValida(dia, mes, ano) {
 // Testes
 console.log(ehDataValida(29, 2, 2024)); // true (ano bissexto)
 console.log(ehDataValida(29, 2, 2025)); // false (ano não é bissexto)
-console.log(ehDataValida(31, 7, 2025)); // true (dezembro tem 31 dias)
+console.log(ehDataValida(31, 7, 2025)); // true (julho tem 31 dias)
 console.log(ehDataValida(31, 6, 2025)); // false (janeiro tem 31 dias)
