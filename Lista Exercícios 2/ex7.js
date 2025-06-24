@@ -21,8 +21,10 @@ function produtosPorNome(produtos){
     }
     return 0
   })
-  return produtos.map(produto => ({
-    nome: produto.nome
+    return produtos.map(produto => produto.nome)
+  // OPÇÃO PARA RETORAR UM OBJETO
+  // return produtos.map(produto => ({
+  //   nome: produto.nome
   }))
 }
 console.log(produtosPorNome(produtos))
